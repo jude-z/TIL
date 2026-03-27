@@ -1,0 +1,26 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/admin/c-study/cmake-build-debug/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem2-1/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem2-2/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem3-1/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem4-3/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem5-1/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem7-1/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem7-2/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem7-3/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem7-4/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem8-1/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem8-2/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem8-3/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem9-1/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem11-1/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem11-2/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem13-1/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem14-1/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem16-1/cmake_install.cmake",
+		"/Users/admin/c-study/cmake-build-debug/problem17-1/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

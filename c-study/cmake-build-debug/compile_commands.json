@@ -1,0 +1,116 @@
+[
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem2-1/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem2-1/CMakeFiles/problem2_1.dir/src/main.c.o -c /Users/admin/c-study/problem2-1/src/main.c",
+  "file": "/Users/admin/c-study/problem2-1/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem2-1/CMakeFiles/problem2_1.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem2-2/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem2-2/CMakeFiles/problem2_2.dir/src/main.c.o -c /Users/admin/c-study/problem2-2/src/main.c",
+  "file": "/Users/admin/c-study/problem2-2/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem2-2/CMakeFiles/problem2_2.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem3-1/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem3-1/CMakeFiles/problem3_1.dir/src/main.c.o -c /Users/admin/c-study/problem3-1/src/main.c",
+  "file": "/Users/admin/c-study/problem3-1/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem3-1/CMakeFiles/problem3_1.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem4-3/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem4-3/CMakeFiles/problem4_3.dir/src/main.c.o -c /Users/admin/c-study/problem4-3/src/main.c",
+  "file": "/Users/admin/c-study/problem4-3/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem4-3/CMakeFiles/problem4_3.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem5-1/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem5-1/CMakeFiles/problem5_1.dir/src/main.c.o -c /Users/admin/c-study/problem5-1/src/main.c",
+  "file": "/Users/admin/c-study/problem5-1/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem5-1/CMakeFiles/problem5_1.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem7-1/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem7-1/CMakeFiles/problem7_1.dir/src/main.c.o -c /Users/admin/c-study/problem7-1/src/main.c",
+  "file": "/Users/admin/c-study/problem7-1/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem7-1/CMakeFiles/problem7_1.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem7-2/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem7-2/CMakeFiles/problem7_2.dir/src/main.c.o -c /Users/admin/c-study/problem7-2/src/main.c",
+  "file": "/Users/admin/c-study/problem7-2/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem7-2/CMakeFiles/problem7_2.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem7-3/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem7-3/CMakeFiles/problem7_3.dir/src/main.c.o -c /Users/admin/c-study/problem7-3/src/main.c",
+  "file": "/Users/admin/c-study/problem7-3/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem7-3/CMakeFiles/problem7_3.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem7-4/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem7-4/CMakeFiles/problem7_4.dir/src/main.c.o -c /Users/admin/c-study/problem7-4/src/main.c",
+  "file": "/Users/admin/c-study/problem7-4/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem7-4/CMakeFiles/problem7_4.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem8-1/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem8-1/CMakeFiles/problem8_1.dir/src/main.c.o -c /Users/admin/c-study/problem8-1/src/main.c",
+  "file": "/Users/admin/c-study/problem8-1/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem8-1/CMakeFiles/problem8_1.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem8-2/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem8-2/CMakeFiles/problem8_2.dir/src/main.c.o -c /Users/admin/c-study/problem8-2/src/main.c",
+  "file": "/Users/admin/c-study/problem8-2/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem8-2/CMakeFiles/problem8_2.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem8-3/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem8-3/CMakeFiles/problem8_3.dir/src/main.c.o -c /Users/admin/c-study/problem8-3/src/main.c",
+  "file": "/Users/admin/c-study/problem8-3/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem8-3/CMakeFiles/problem8_3.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem9-1/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem9-1/CMakeFiles/problem9_1.dir/src/main.c.o -c /Users/admin/c-study/problem9-1/src/main.c",
+  "file": "/Users/admin/c-study/problem9-1/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem9-1/CMakeFiles/problem9_1.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem11-1/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem11-1/CMakeFiles/problem11_1.dir/src/main.c.o -c /Users/admin/c-study/problem11-1/src/main.c",
+  "file": "/Users/admin/c-study/problem11-1/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem11-1/CMakeFiles/problem11_1.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem11-2/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem11-2/CMakeFiles/problem11_2.dir/src/main.c.o -c /Users/admin/c-study/problem11-2/src/main.c",
+  "file": "/Users/admin/c-study/problem11-2/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem11-2/CMakeFiles/problem11_2.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem13-1/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem13-1/CMakeFiles/problem13_1.dir/src/main.c.o -c /Users/admin/c-study/problem13-1/src/main.c",
+  "file": "/Users/admin/c-study/problem13-1/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem13-1/CMakeFiles/problem13_1.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem14-1/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem14-1/CMakeFiles/problem14_1.dir/src/main.c.o -c /Users/admin/c-study/problem14-1/src/main.c",
+  "file": "/Users/admin/c-study/problem14-1/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem14-1/CMakeFiles/problem14_1.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem16-1/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem16-1/CMakeFiles/problem16_1.dir/src/main.c.o -c /Users/admin/c-study/problem16-1/src/main.c",
+  "file": "/Users/admin/c-study/problem16-1/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem16-1/CMakeFiles/problem16_1.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/admin/c-study/cmake-build-debug",
+  "command": "/usr/bin/cc -I/Users/admin/c-study/problem17-1/src -g -std=gnu11 -arch arm64 -fcolor-diagnostics -o problem17-1/CMakeFiles/problem17_1.dir/src/main.c.o -c /Users/admin/c-study/problem17-1/src/main.c",
+  "file": "/Users/admin/c-study/problem17-1/src/main.c",
+  "output": "/Users/admin/c-study/cmake-build-debug/problem17-1/CMakeFiles/problem17_1.dir/src/main.c.o"
+}
+]

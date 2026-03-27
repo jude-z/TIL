@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="945df006-53c9-48f1-9108-a4dcbc3c418f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter2/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter3/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter4/ProfilePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter5/SalaryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter6/InterestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3ANOzW3gyQSxFQ14rGrsz1hkcPG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.java-study [:GodOfJava1.chapter2.Profile.main()].executor": "Run",
+    "Gradle.java-study [:GodOfJava1.chapter3.Profile.main()].executor": "Run",
+    "Gradle.java-study [:Test.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/admin/project/java-study/src/main/java/GodOfJava1/chapter3"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter3" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GodOfJava1.chapter3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="GodOfJava1.chapter3.Profile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GodOfJava1.chapter3.Profile" />
+      <module name="java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GodOfJava1.chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Profile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GodOfJava1.chapter2.Profile" />
+      <module name="java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GodOfJava1.chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="java-study.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GodOfJava1.chapter3.Profile" />
+        <item itemvalue="Application.Profile" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="945df006-53c9-48f1-9108-a4dcbc3c418f" name="Changes" comment="" />
+      <created>1772429824093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772429824093</updated>
+    </task>
+    <servers />
+  </component>
+</project>

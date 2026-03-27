@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 4.1)
+project(cpp_study)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_subdirectory(problem1-1)
+add_subdirectory(problem1-2)
+add_subdirectory(problem2-1)
+add_subdirectory(problem2-2)
+add_subdirectory(problem2-3)
+add_subdirectory(problem3-1)
+add_subdirectory(problem3-2)
+add_subdirectory(problem4-3)
+add_subdirectory(problem5-1)
+add_subdirectory(problem7-1)
+add_subdirectory(problem7-2)
+add_subdirectory(problem8-1)
+add_subdirectory(problem10-1)
+add_subdirectory(problem10-2)
+
