@@ -1,23 +1,27 @@
-#ifndef ARRAY_LIST_H
-#define ARRAY_LIST_H
+//
+// Created by admin on 4/18/26.
+//
+
+#ifndef C_ARRAYLIST_H
+#define C_ARRAYLIST_H
+#include "Point.h"
 #define TRUE 1
 #define FALSE 0
+
 #define LIST_LEN 100
-typedef int LData;
-typedef struct ArrayList {
+typedef Point LData;
+typedef struct __ArrayList {
     LData arr[LIST_LEN];
     int numOfData;
     int curPosition;
 } ArrayList;
+
 typedef ArrayList List;
 
 void ListInit(List* plist);
 void LInsert(List* plist, LData data);
-
-int LFirst(List* plist, LData* pdata);
-int LNext(List* plist, LData* pdata);
-
+int LFirst(List* plist, LData* data);
+int LNext(List* plist, LData* data);
 LData LRemove(List* plist);
 int LCount(List* plist);
-
-#endif
+#endif //C_ARRAYLIST_H

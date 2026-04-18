@@ -1,6 +1,6 @@
 project(HanoiTower C)
 
-file(GLOB SOURCES src/*.c)
+file(GLOB SOURCES src/*.c src/*.h)
 
 add_executable(HanoiTower ${SOURCES})
 
