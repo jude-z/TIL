@@ -1,39 +1,26 @@
 #include <stdio.h>
-#include "DLinkedList.h"
+#include "DoubleLinkedList.h"
+void print_data(Data data) {
+    printf("data : %d\n",data);
+}
 int main() {
     List list;
-    int data;
+    Data data;
     ListInit(&list);
 
-    for (int i = 1;i<=5;i++) {
-        LInsert(&list,i);
-    }
-
-    printf("numOfData : %d\n",list.numOfData);
-    if (LFirst(&list,&data)) {
-        printf("data : %d\n",data);
-        while (LNext(&list,&data)) {
-            printf("data : %d\n",data);
-        }
-    }
+    LInsert(&list,1);
+    LInsert(&list,2);
+    LInsert(&list,3);
+    LInsert(&list,4);
+    LInsert(&list,5);
 
     if (LFirst(&list,&data)) {
-        if (data == 3) {
-            LRemove(&list);
-        }
+        print_data(data);
         while (LNext(&list,&data)) {
-            if (data == 3) {
-                LRemove(&list);
-            }
+            print_data(data);
+        }
+        while (LPrevious(&list,&data)) {
+            print_data(data);
         }
     }
-
-    printf("numOfData : %d\n",list.numOfData);
-    if (LFirst(&list,&data)) {
-        printf("data : %d\n",data);
-        while (LNext(&list,&data)) {
-            printf("data : %d\n",data);
-        }
-    }
-
 }
