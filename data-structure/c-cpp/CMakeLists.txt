@@ -48,7 +48,47 @@ add_library(SingleLinkedList_Head
 )
 target_include_directories(SingleLinkedList_Head PUBLIC cpp/SingleLinkedList/HeadSingleLinkedList/src)
 
+add_library(SingleLinkedList_HeadTail
+  cpp/SingleLinkedList/HeadTailSIngleLinkedList/HeadTailSingleLinkedList.cpp
+)
+target_include_directories(SingleLinkedList_HeadTail PUBLIC cpp/SingleLinkedList/HeadTailSIngleLinkedList)
+
+add_library(SingleLinkedList_Tail
+  cpp/SingleLinkedList/TailSingleLinkedList/src/TailSIngleLinkedList.cpp
+)
+target_include_directories(SingleLinkedList_Tail PUBLIC cpp/SingleLinkedList/TailSingleLinkedList/src)
+
+add_library(DoubleLinkedList_Tail
+  cpp/DoubleLinkedList/TailDoubleLinkedList/src/TailDoubleLinkedList.cpp
+)
+target_include_directories(DoubleLinkedList_Tail PUBLIC cpp/DoubleLinkedList/TailDoubleLinkedList/src)
+
 add_library(Stack
   cpp/Stack/src/Stack.cpp
 )
 target_include_directories(Stack PUBLIC cpp/Stack/src)
+
+# 실행 타겟 (int main()이 구현된 것만)
+add_executable(ArrayList_main cpp/ArrayList/src/main.cpp)
+target_link_libraries(ArrayList_main PRIVATE ArrayList)
+
+# 나머지 모듈 main.cpp는 아직 int main()이 비어있음.
+# 구현 후 아래 주석 해제:
+# add_executable(CircularLinkedList_main cpp/CircularLinkedList/src/main.cpp)
+# target_link_libraries(CircularLinkedList_main PRIVATE CircularLinkedList)
+# add_executable(DoubleLinkedList_Head_main cpp/DoubleLinkedList/HeadDoubleLinkedList/src/main.cpp)
+# target_link_libraries(DoubleLinkedList_Head_main PRIVATE DoubleLinkedList_Head)
+# add_executable(DoubleLinkedList_HeadTail_main cpp/DoubleLinkedList/HeadTailDoubleLinkedList/src/main.cpp)
+# target_link_libraries(DoubleLinkedList_HeadTail_main PRIVATE DoubleLinkedList_HeadTail)
+# add_executable(DoubleLinkedList_Tail_main cpp/DoubleLinkedList/TailDoubleLinkedList/src/main.cpp)
+# target_link_libraries(DoubleLinkedList_Tail_main PRIVATE DoubleLinkedList_Tail)
+# add_executable(Queue_main cpp/Queue/src/main.cpp)
+# target_link_libraries(Queue_main PRIVATE Queue)
+# add_executable(SingleLinkedList_Head_main cpp/SingleLinkedList/HeadSingleLinkedList/src/main.cpp)
+# target_link_libraries(SingleLinkedList_Head_main PRIVATE SingleLinkedList_Head)
+# add_executable(SingleLinkedList_HeadTail_main cpp/SingleLinkedList/HeadTailSIngleLinkedList/main.cpp)
+# target_link_libraries(SingleLinkedList_HeadTail_main PRIVATE SingleLinkedList_HeadTail)
+# add_executable(SingleLinkedList_Tail_main cpp/SingleLinkedList/TailSingleLinkedList/src/main.cpp)
+# target_link_libraries(SingleLinkedList_Tail_main PRIVATE SingleLinkedList_Tail)
+# add_executable(Stack_main cpp/Stack/src/main.cpp)
+# target_link_libraries(Stack_main PRIVATE Stack)
