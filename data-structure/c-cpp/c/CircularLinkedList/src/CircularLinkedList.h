@@ -1,5 +1,5 @@
-#ifndef HEAD_DOUBLE_LINKED_LIST_H
-#define HEAD_DOUBLE_LINKED_LIST_H
+#ifndef CIRCULAR_LINKED_LIST_H
+#define CIRCULAR_LINKED_LIST_H
 
 #define TRUE 1
 #define FALSE 0
@@ -8,18 +8,18 @@ typedef int Data;
 
 typedef struct _Node {
     Data data;
-    struct _Node* prev;
     struct _Node* next;
-}Node;
+} Node;
 
-typedef struct _HeadDoubleLinkedList {
+typedef struct _CircularLinkedList {
     Node* head;
+    Node* tail;
     Node* before;
     Node* cur;
     int element_count;
-}HeadDoubleLinkedList;
+} CircularLinkedList;
 
-typedef HeadDoubleLinkedList List;
+typedef CircularLinkedList List;
 
 void init(List* plist);
 void insert(List* plist, Data data);

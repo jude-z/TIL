@@ -1,5 +1,5 @@
-#ifndef HEAD_DOUBLE_LINKED_LIST_H
-#define HEAD_DOUBLE_LINKED_LIST_H
+#ifndef TAIL_DOUBLE_LINKED_LIST_H
+#define TAIL_DOUBLE_LINKED_LIST_H
 
 #define TRUE 1
 #define FALSE 0
@@ -8,18 +8,17 @@ typedef int Data;
 
 typedef struct _Node {
     Data data;
-    struct _Node* prev;
     struct _Node* next;
-}Node;
+    struct _Node* prev;
+} Node;
 
-typedef struct _HeadDoubleLinkedList {
-    Node* head;
-    Node* before;
+typedef struct _TailDoubleLinkedList {
+    Node* tail;
     Node* cur;
     int element_count;
-}HeadDoubleLinkedList;
+} TailDoubleLinkedList;
 
-typedef HeadDoubleLinkedList List;
+typedef TailDoubleLinkedList List;
 
 void init(List* plist);
 void insert(List* plist, Data data);
