@@ -21,7 +21,7 @@ int HeadTailDoubleLinkedList::first(Data *data) {
 }
 
 int HeadTailDoubleLinkedList::next(Data *data) {
-    if (head -> next == nullptr) return FALSE;
+    if (cur -> next == nullptr) return FALSE;
     cur = cur -> next;
     *data = cur -> data;
     return TRUE;
@@ -31,13 +31,26 @@ Data HeadTailDoubleLinkedList::remove() {
     Node* r_pos = cur;
     Data r_data = cur -> data;
 
-    if (element_count == 1) {
-        head = nullptr;
-        tail = nullptr;
+    if (r_pos == head) {
+        if (element_count == 1) {
+            head = nullptr;
+            tail = nullptr;
+            cur = nullptr;
+        }else {
+            head = cur -> next;
+            head -> prev = nullptr;
+            cur = head;
+        }
+    }else if (r_pos == tail) {
+        tail = cur -> prev;
+        tail -> next = nullptr;
+        cur = tail;
     }else {
         cur -> prev -> next = cur -> next;
         cur -> next -> prev = cur -> prev;
+        cur = cur -> prev;
     }
+    element_count--;
     delete r_pos;
     return r_data;
 }

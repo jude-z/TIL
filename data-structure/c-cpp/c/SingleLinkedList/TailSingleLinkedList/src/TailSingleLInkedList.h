@@ -1,25 +1,24 @@
-#ifndef HEAD_DOUBLE_LINKED_LIST_H
-#define HEAD_DOUBLE_LINKED_LIST_H
+#ifndef TAIL_SINGLE_LINKED_LIST_H
+#define TAIL_SINGLE_LINKED_LIST_H
 
 #define TRUE 1
 #define FALSE 0
 
-typedef int Data;
+typedef  int Data;
 
 typedef struct _Node {
     Data data;
     struct _Node* prev;
-    struct _Node* next;
-}Node;
+} Node;
 
-typedef struct _HeadDoubleLinkedList {
-    Node* head;
+typedef struct _TailSingleLinkedList {
+    Node* tail;
     Node* before;
     Node* cur;
     int element_count;
-}HeadDoubleLinkedList;
+} TailSingleLinkedList;
 
-typedef HeadDoubleLinkedList List;
+typedef TailSingleLinkedList List;
 
 void init(List* plist);
 void insert(List* plist, Data data);

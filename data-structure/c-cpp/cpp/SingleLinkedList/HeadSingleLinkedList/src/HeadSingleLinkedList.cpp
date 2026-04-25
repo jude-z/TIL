@@ -1,6 +1,6 @@
 #include "HeadSingleLinkedList.h"
 
-void SingleList::insert(Data data) {
+void HeadSingleLinkedList::insert(Data data) {
     Node* new_node = new Node(data);
     if (head == nullptr) {
         head = new_node;
@@ -11,7 +11,7 @@ void SingleList::insert(Data data) {
     element_count++;
 }
 
-int SingleList::first(Data *data) {
+int HeadSingleLinkedList::first(Data *data) {
     if (head == nullptr) return FALSE;
     before = nullptr;
     cur = head;
@@ -19,7 +19,7 @@ int SingleList::first(Data *data) {
     return TRUE;
 }
 
-int SingleList::next(Data *data) {
+int HeadSingleLinkedList::next(Data *data) {
     if (cur -> next == nullptr) return FALSE;
     before = cur;
     cur = cur -> next;
@@ -27,13 +27,23 @@ int SingleList::next(Data *data) {
     return TRUE;
 }
 
-Data SingleList::remove() {
-    Data r_data = cur -> data;
-    before -> next = cur -> next;
-    delete cur;
+Data HeadSingleLinkedList::remove() {
+    Node* r_pos  = cur;
+    Data r_data = r_pos -> data;
+    if (r_pos == head) {
+        if (element_count == 1) {
+            head = nullptr;
+        }else {
+            head = cur -> next;
+        }
+    }else {
+        before -> next = cur -> next;
+    }
+    delete r_pos;
+    element_count--;
     return r_data;
 }
 
-int SingleList::count() {
+int HeadSingleLinkedList::count() {
     return element_count;
 }

@@ -1,6 +1,5 @@
-#include "HeadDoubleLinkedList.h"
+#include "HeadSingleLinkedList.h"
 #include <stdlib.h>
-
 void init(List* plist) {
     plist -> head = NULL;
     plist -> element_count = 0;
@@ -10,19 +9,15 @@ void insert(List* plist, Data data) {
     Node* new_node = (Node*)malloc(sizeof(Node));
     new_node -> data = data;
 
-    if (plist -> head == NULL) {
-        plist -> head = new_node;
-        new_node -> next = NULL;
-        new_node -> prev = NULL;
-    }else {
+    if (plist -> head == NULL) plist -> head = new_node;
+    else {
         new_node -> next = plist -> head;
-        new_node -> prev = NULL;
         plist -> head = new_node;
     }
     plist -> element_count++;
 }
 
-int first(List* plist,Data* data) {
+int first(List* plist, Data* data) {
     if (plist -> head == NULL) return FALSE;
     plist -> before = NULL;
     plist -> cur = plist -> head;
@@ -42,16 +37,15 @@ Data remove(List* plist) {
     Node* r_pos = plist -> cur;
     Data r_data = r_pos -> data;
     if (r_pos == plist -> head) {
-        if (plist -> element_count) {
+        if (plist -> element_count == 1) {
             plist -> head = NULL;
         }else {
             plist -> head = plist -> cur -> next;
-            plist -> head -> prev = NULL;
         }
     }else {
         plist -> before -> next = plist -> cur -> next;
-        plist -> cur -> next -> prev = plist -> before;
     }
+    plist -> element_count--;
     free(r_pos);
     return r_data;
 }
