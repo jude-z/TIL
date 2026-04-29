@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="945df006-53c9-48f1-9108-a4dcbc3c418f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter2/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter3/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter4/ProfilePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter5/SalaryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter6/InterestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-structure/c-cpp/cpp/Queue/src/Queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../data-structure/c-cpp/cpp/Queue/src/Queue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data-structure/c-cpp/cpp/Stack/src/Stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../data-structure/c-cpp/cpp/Stack/src/Stack.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +26,26 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jude-z"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jude-z/TIL.git",
+    "accountId": "d9e03ce4-e448-46e2-9acd-9896f53e1a59"
+  }
+}]]></component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3ANOzW3gyQSxFQ14rGrsz1hkcPG" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,7 +61,8 @@
     "Gradle.java-study [:Test.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "study",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/admin/project/java-study/src/main/java/GodOfJava1/chapter3"
   }

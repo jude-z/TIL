@@ -1,0 +1,72 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# JetBrains IDE (CLion, IntelliJ, GoLand 등)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+
+# Vim/Emacs
+*.swp
+*.swo
+*~
+
+.claude
+c-study/cmake-build-debug
+cpp-study/cmake-build-debug
+data-structure/c-cpp/cmake-build-debug
+data-structure/c-cpp/.claude
+data-structure/c-cpp/build
+
+
+# C/C++ 빌드 산출물
+*.o
+*.obj
+*.ko
+*.elf
+*.a
+*.la
+*.lo
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.gch
+*.pch
+*.d
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+target/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Go
+*.test
+*.prof
+vendor/
+go.work.sum
+
+# 로그/임시
+*.log
+*.tmp
+*.bak
