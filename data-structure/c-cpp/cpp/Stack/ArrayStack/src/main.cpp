@@ -10,7 +10,7 @@ int main() {
     stack.push(4);
     stack.push(5);
 
-    while (true) {
+    while (!stack.empty()) {
         cout << stack.pop() << endl;
     }
 }
