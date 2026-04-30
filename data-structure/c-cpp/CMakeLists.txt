@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(c_ArrayList
         c/ArrayList/src/main.c
-        c/ArrayList/src/ArrayList.c)
+        c/ArrayList/src/ArrayList.c
+        )
 target_include_directories(c_ArrayList PRIVATE c/ArrayList/src)
 
 add_executable(c_CircularLinkedList
@@ -85,9 +86,12 @@ target_include_directories(c_BinaryTree PRIVATE c/Tree/BinaryTree/src)
 
 add_executable(c_ExpressionTree
     c/Tree/ExpressionTree/ExpressionTree.c
+    c/Tree/ExpressionTree/ExpressionTree.h
     c/Tree/ExpressionTree/BinaryTree.c
+    c/Tree/ExpressionTree/BinaryTree.h
     c/Tree/ExpressionTree/main.c
-    c/Tree/ExpressionTree/stack.c
+    c/Tree/ExpressionTree/Stack.c
+    c/Tree/ExpressionTree/Stack.h
 )
 
 target_include_directories(c_ExpressionTree PRIVATE c/Tree/ExpressionTree/src)

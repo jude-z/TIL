@@ -55,10 +55,3 @@ void postorderTraverse(TreeNode* tree_node, visitFuncPtr func_ptr) {
     func_ptr(getData(tree_node));
 
 }
-
-void deleteTreeNode(TreeNode* tree_node) {
-    if (tree_node == NULL) return;
-    deleteTreeNode(tree_node -> left);
-    deleteTreeNode(tree_node -> right);
-    free(tree_node);
-}
