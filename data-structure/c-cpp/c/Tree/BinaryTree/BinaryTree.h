@@ -24,4 +24,5 @@ void inorderTraverse(TreeNode* tree_node,visitFuncPtr func_ptr);
 void preorderTraverse(TreeNode* tree_node,visitFuncPtr func_ptr);
 void postorderTraverse(TreeNode* tree_node,visitFuncPtr func_ptr);
 
+void deleteTreeNode(TreeNode* tree_node);
 #endif
