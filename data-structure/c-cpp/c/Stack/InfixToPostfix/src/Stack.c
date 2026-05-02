@@ -1,40 +1,36 @@
 #include "Stack.h"
-#include <stdlib.h>
 #include <stdio.h>
-
+#include <stdlib.h>
 void init(Stack* stack) {
-    stack -> head = NULL;
+    stack -> top_index = -1;
 }
 
 void push(Stack* stack, Data data) {
-    Node* new_node = (Node*)malloc(sizeof(Node));
-    new_node -> data = data;
+    stack -> top_index++;
+    stack -> arr[stack -> top_index] = data;
+}
 
-    new_node -> next = stack -> head;
-    stack -> head = new_node;
+int empty(Stack* stack) {
+    return stack -> top_index == -1;
 }
 
 Data pop(Stack* stack) {
     if (empty(stack)) {
-        printf("stack is empty!!\n");
+        printf("No elements!!\n");
         exit(-1);
+    }else {
+        Data data = stack -> arr[stack -> top_index];
+        stack -> top_index--;
+        return data;
     }
-    Node* r_pos = stack -> head;
-    Data r_data = r_pos -> data;
-    stack -> head = r_pos -> next;
-    free(r_pos);
-    return r_data;
 }
 
 Data peek(Stack* stack) {
     if (empty(stack)) {
-        printf("stack is empty!!\n");
+        printf("No elements!!\n");
         exit(-1);
+    }else {
+        Data data = stack -> arr[stack -> top_index];
+        return data;
     }
-    return stack -> head -> data;
-}
-
-int empty(Stack* stack) {
-    if (stack -> head == NULL) return TRUE;
-    return FALSE;
 }
