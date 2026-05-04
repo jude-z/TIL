@@ -8,5 +8,5 @@ void insertSort(Data* arr,int len);
 void heapSort(Data* arr,int len,Comp comp);
 void mergeSort(Data* arr,int left, int right);
 void quickSort(Data* arr, int left, int right);
-
+void radixSort(Data* arr, int arr_len, int max_len);
 #endif
