@@ -27,10 +27,10 @@ int LNext(List* plist, Data* data) {
 }
 
 Data LRemove(List* plist) {
-    int rpos = plist -> curPosition;
-    Data data = plist -> arr[rpos];
+    int r_pos = plist -> curPosition;
+    Data data = plist -> arr[r_pos];
     int num = plist -> numOfData;
-    for (int i = rpos;i<num-1;i++) {
+    for (int i = r_pos;i<num-1;i++) {
         plist -> arr[i] = plist -> arr[i+1];
     }
     plist -> numOfData--;
