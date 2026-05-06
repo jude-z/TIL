@@ -59,3 +59,27 @@ void deleteTreeNode(TreeNode* tree_node) {
     deleteTreeNode(tree_node -> right);
     free(tree_node);
 }
+TreeNode* removeLeftSubTree(TreeNode* tree_node) {
+    if (tree_node == NULL) {
+        puts("tree_node is null");
+        exit(-1);
+    }
+    TreeNode* delete_node = tree_node -> left;
+    tree_node -> left = NULL;
+    return delete_node;
+}
+TreeNode* removeRightSubTree(TreeNode* tree_node) {
+    if (tree_node == NULL) {
+        puts("tree_node is null");
+        exit(-1);
+    }
+    TreeNode* delete_node = tree_node -> right;
+    tree_node -> right = NULL;
+    return delete_node;
+}
+void changeLeftSubTree(TreeNode* tree_node, TreeNode* sub) {
+    tree_node -> left = sub;
+}
+void changeRightSubTree(TreeNode* tree_node, TreeNode* sub) {
+    tree_node -> right = sub;
+}
