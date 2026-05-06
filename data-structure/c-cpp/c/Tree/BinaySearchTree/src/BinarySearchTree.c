@@ -94,7 +94,23 @@ TreeNode* binary_search_treeRemove(TreeNode** p_root,Data data) {
             alternative_parent_node = alternative_current_node;
             alternative_current_node = getLeftSubTree(alternative_current_node);
         }
+        delData = getData(delete_node);
+        setData(delete_node,getData(alternative_parent_node));
+
+        if (getLeftSubTree(alternative_parent_node) == alternative_current_node) {
+            changeLeftSubTree(alternative_parent_node,getRightSubTree(alternative_current_node));
+        }else if (getRightSubTree(alternative_parent_node) == alternative_current_node) {
+            changeRightSubTree(alternative_parent_node,getRightSubTree(alternative_current_node));
+        }
+
+        delete_node = alternative_parent_node;
+        setData(delete_node,delData);
     }
+    if (getRightSubTree(virtual_root_node) != *p_root) {
+        *p_root = getRightSubTree(virtual_root_node);
+    }
+    free(virtual_root_node);
+    return delete_node;
 
 }
 
