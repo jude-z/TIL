@@ -39,6 +39,7 @@ void avlInsert(TreeNode** p_root,Data data) {
             makeRightSubTree(p_node,new_node);
         }
     }
+    *p_root = rebalance(p_root);
 }
 
 TreeNode* avlRemove(TreeNode** p_root, Data data) {
@@ -96,6 +97,7 @@ TreeNode* avlRemove(TreeNode** p_root, Data data) {
     if (getRightSubTree(v_node) != *p_root) {
         *p_root = getRightSubTree(v_node);
     }
+    *p_root = rebalance(p_root);
     free(v_node);
     return del_node;
 
