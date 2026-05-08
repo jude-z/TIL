@@ -1,5 +1,6 @@
 #include <iostream>
 #include "CircularList.h"
+#include <vector>
 using namespace std;
 void print(Data data) {
     cout << data << endl;
