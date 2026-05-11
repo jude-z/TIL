@@ -38,10 +38,20 @@ set(CPP_PROJECTS
         cpp/ArrayList
         cpp/CircularLinkedList
         cpp/SingleLinkedList/HeadSingleLinkedList
+        cpp/SingleLinkedList/DummyHeadSingleLinkedList
         cpp/SingleLinkedList/HeadTailSIngleLinkedList
+        cpp/SingleLinkedList/DummyTailSingleLinkedList
         cpp/DoubleLinkedList/HeadDoubleLinkedList
         cpp/DoubleLinkedList/TailDoubleLinkedList
         cpp/DoubleLinkedList/HeadTailDoubleLinkedList
+        cpp/DoubleLinkedList/DummyHeadDoubleLinkedList
+        cpp/DoubleLinkedList/DummyTailDoubleLInkedList
+        cpp/DoubleLinkedList/DummyHeadTailDoubleLInkedList
+        cpp/Queue/LinkedListQueue
+        cpp/Queue/CircularQueue
+        cpp/Stack/InfixToPostfix
+        cpp/Stack/LInkedListStack
+        cpp/Sort
 )
 
 foreach (PROJECT IN LISTS CPP_PROJECTS)
