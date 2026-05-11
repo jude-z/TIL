@@ -52,6 +52,7 @@ set(CPP_PROJECTS
         cpp/Stack/InfixToPostfix
         cpp/Stack/LInkedListStack
         cpp/Sort
+        cpp/Dequeue
 )
 
 foreach (PROJECT IN LISTS CPP_PROJECTS)

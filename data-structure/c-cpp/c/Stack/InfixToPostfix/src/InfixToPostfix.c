@@ -4,7 +4,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <ctype.h>
-int right(char* ch) {
+int check(char* ch) {
     Stack stack;
     init(&stack);
     size_t len = strlen(ch);
@@ -39,7 +39,7 @@ int compare(char op1, char op2){
     else return 0;
 }
 void convertToPostfix(char* ch) {
-    if (!right(ch)) {
+    if (!check(ch)) {
         printf("this expression is wrong\n");
         exit(-1);
     }
