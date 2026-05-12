@@ -53,6 +53,8 @@ set(CPP_PROJECTS
         cpp/Stack/LInkedListStack
         cpp/Sort
         cpp/Dequeue
+        cpp/Hash/CloseAddress
+        cpp/Hash/OpenAddress
 )
 
 foreach (PROJECT IN LISTS CPP_PROJECTS)
