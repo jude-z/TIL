@@ -47,9 +47,46 @@ void InfixToPostfix::converToPostfix(char *ch) {
         exit(-1);
     }
     int len = strlen(ch);
-    for (int i = 0;i<len;i++) {
-
+    char* new_ch = new char[len + 1];
+    memset(new_ch,0,len+1);
+    int i;
+    int idx = 0;
+    char token, pop_token;
+    for (i = 0;i<len;i++) {
+        token = ch[i];
+        if (isdigit(token)) {
+            new_ch[idx++] = token;
+        }else {
+            switch (token) {
+                case '(':
+                    stack.push(token);
+                    break;
+                case '*': case '/':
+                    while (!stack.empty() && stack.peek() != '(' && this -> compare(stack.peek(),token) == 1) {
+                        new_ch[idx++] = token;
+                    }
+                    stack.push(token);
+                    break;
+                case '+': case '-':
+                    while (!stack.empty() && stack.peek() != '(' && this -> compare(stack.peek(),token) == 1) {
+                        new_ch[idx++] = token;
+                    }
+                    stack.push(token);
+                    break;
+                case ')':
+                    while (!stack.empty()) {
+                        pop_token = stack.pop();
+                        if (pop_token == '(') break;
+                        new_ch[idx++] = pop_token;
+                    }
+                    break;
+            }
+        }
     }
-
+    while (!stack.empty()) {
+        new_ch[idx++] = stack.pop();
+    }
+    strcpy(ch,new_ch);
+    free(new_ch);
 }
 

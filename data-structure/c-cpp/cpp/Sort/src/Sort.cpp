@@ -1,6 +1,6 @@
 #include "Sort.h"
 #include <iostream>
-
+#include "Queue.h"
 template<class T>
 Sort<T>::Sort() {
     arr = new T[ARRAY_LEN];
@@ -78,6 +78,37 @@ void Sort<T>::mergeSort(int left, int right) {
         new_arr[new_arr_idx++] = arr[right_idx++];
     }
 
+}
+
+template<class T>
+void Sort<T>::quickSort(int left, int right) {
+    if (left > right) return;
+    int pivot = partition(left, right);
+    quickSort(left, pivot -1);
+    quickSort(pivot + 1, right);
+}
+
+
+template<class T>
+int Sort<T>::partition(int left, int right) {
+    T pivot = this -> arr[left];
+    int low = left + 1;
+    int high = right;
+    while (low <= high) {
+        while (low <= right && this -> comp(this -> arr[low],pivot) >= 0) low++;
+        while (high >= left + 1 && this -> comp(this -> arr[high], pivot) <= 0) high--;
+        if (low <= high) {
+            T temp = this -> arr[low];
+            this -> arr[low] = this -> arr[high];
+            this -> arr[high] = temp;
+            low++;
+            high--;
+        }
+    }
+    T temp = this -> arr[left];
+    this -> arr[left] = this -> arr[high];
+    this -> arr[high] = temp;
+    return high;
 }
 
 

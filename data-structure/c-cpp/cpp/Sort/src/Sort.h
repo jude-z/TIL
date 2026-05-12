@@ -2,7 +2,7 @@
 #define C_CPP_DATA_STRUCTURE_SORT_H
 
 #define ARRAY_LEN 100
-
+#define BUCKET_NUM 10
 template<class T>
 class Sort {
     T* arr;
@@ -16,7 +16,7 @@ public:
     void selectSort();
     void mergeSort(int left, int right);
     void quickSort(int left, int right);
-    void radixSort(int max_len);
+    int partition(int left, int right);
 
 };
 
