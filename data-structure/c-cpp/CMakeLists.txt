@@ -55,6 +55,10 @@ set(CPP_PROJECTS
         cpp/Dequeue
         cpp/Hash/CloseAddress
         cpp/Hash/OpenAddress
+        cpp/Tree/BinaryTree
+        cpp/Tree/Heap/SimpleHeap
+        cpp/Tree/Heap/Heap
+        cpp/Tree/PriorityQueue
 )
 
 foreach (PROJECT IN LISTS CPP_PROJECTS)

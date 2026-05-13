@@ -1,5 +1,7 @@
 #include "LinkedList.h"
+#include <iostream>
 
+using namespace std;
 template<class T>
 LinkedList<T>::LinkedList():head(nullptr),tail(nullptr),cur(nullptr),numOfData(0){
 }
@@ -40,5 +42,5 @@ T LinkedList<T>::remove() {
     }
     Node<T>* r_pos = this -> cur;
     T r_data = r_pos -> data;
-
+    return r_data;
 }
