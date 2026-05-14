@@ -1,7 +1,7 @@
 #ifndef EXPRESSION_TREE_H
 #define EXPRESSION_TREE_H
 
-#include "Type.h"
+#include "../Type.h"
 
 TreeNode* makeExpTree(char* exp);
 int evaluateExpTree(TreeNode* tree_node);

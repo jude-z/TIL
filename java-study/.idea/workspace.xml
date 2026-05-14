@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="945df006-53c9-48f1-9108-a4dcbc3c418f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../data-structure/c-cpp/cpp/Queue/src/Queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../data-structure/c-cpp/cpp/Queue/src/Queue.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data-structure/c-cpp/cpp/Stack/src/Stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../data-structure/c-cpp/cpp/Stack/src/Stack.cpp" afterDir="false" />
+    <list default="true" id="945df006-53c9-48f1-9108-a4dcbc3c418f" name="Changes" comment="lambda 공부">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,18 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jude-z"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jude-z&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jude-z/TIL.git",
-    "accountId": "d9e03ce4-e448-46e2-9acd-9896f53e1a59"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jude-z/TIL.git&quot;,
+    &quot;accountId&quot;: &quot;d9e03ce4-e448-46e2-9acd-9896f53e1a59&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -56,15 +57,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
     "Gradle.java-study [:GodOfJava1.chapter2.Profile.main()].executor": "Run",
     "Gradle.java-study [:GodOfJava1.chapter3.Profile.main()].executor": "Run",
     "Gradle.java-study [:Test.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter16.ConstructorReferenceExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter16.LambdaExample.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "study",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/admin/project/java-study/src/main/java/GodOfJava1/chapter3"
+    "last_opened_file_path": "/Users/admin/project/java-study/src/main/java/GodOfJava1/chapter3",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -73,16 +79,43 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ThisIsJava.chapter16" />
       <recent name="GodOfJava1.chapter3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.ConstructorReferenceExample">
+    <configuration name="ConstructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter16.ConstructorReferenceExample" />
+      <module name="java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThisIsJava.chapter16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GodOfJava1.chapter3.Profile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GodOfJava1.chapter3.Profile" />
       <module name="java-study.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="GodOfJava1.chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter16.LambdaExample" />
+      <module name="java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThisIsJava.chapter16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructorReferenceExample" />
+        <item itemvalue="Application.LambdaExample" />
         <item itemvalue="Application.GodOfJava1.chapter3.Profile" />
         <item itemvalue="Application.Profile" />
         <item itemvalue="Application.Test" />
@@ -133,6 +168,22 @@
       <option name="presentableId" value="Default" />
       <updated>1772429824093</updated>
     </task>
+    <task id="LOCAL-00001" summary="lambda 공부">
+      <option name="closed" value="true" />
+      <created>1778409533881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1778409533881</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="lambda 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda 공부" />
   </component>
 </project>

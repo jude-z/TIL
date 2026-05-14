@@ -1,6 +1,6 @@
 #ifndef STACK_H
 #define STACK_H
-#include "Type.h"
+#include "../Type.h"
 #define TRUE 1
 #define FALSE 0
 
