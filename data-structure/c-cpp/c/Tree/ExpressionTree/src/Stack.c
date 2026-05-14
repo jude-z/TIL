@@ -1,4 +1,4 @@
-#include "Stack.h"
+#include "../Stack.h"
 #include <stdlib.h>
 #include <stdio.h>
 void init(Stack* stack) {

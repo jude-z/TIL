@@ -1,5 +1,5 @@
-#include "ExpressionTree.h"
-#include "Stack.h"
+#include "../ExpressionTree.h"
+#include "../Stack.h"
 #include <string.h>
 #include <ctype.h>
 #include <stdio.h>

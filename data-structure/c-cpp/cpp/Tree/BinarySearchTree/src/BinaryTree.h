@@ -1,22 +1,22 @@
 #ifndef BINARY_TREE_H
 #define BINARY_TREE_H
 
-#include "Type.h"
+typedef int Data;
+typedef struct _TreeNode {
+    Data data;
+    struct _TreeNode* left;
+    struct _TreeNode* right;
+}TreeNode;
 
 TreeNode* makeTreeNode();
 Data getData(TreeNode* tree_node);
 void setData(TreeNode* tree_node,Data data);
-
 TreeNode* getLeftSubTree(TreeNode* tree_node);
 TreeNode* getRightSubTree(TreeNode* tree_node);
-
 void makeLeftSubTree(TreeNode* tree_node, TreeNode* sub);
 void makeRightSubTree(TreeNode* tree_node, TreeNode* sub);
-
-typedef void (*VisitFuncPtr)(Data data);
-
-void preorderTraverse(TreeNode* tree_node, VisitFuncPtr func_ptr);
-void inorderTraverse(TreeNode* tree_node, VisitFuncPtr func_ptr);
-void postorderTraverse(TreeNode* tree_node, VisitFuncPtr func_ptr);
-
+TreeNode* removeLeftSubTree(TreeNode* tree_node);
+TreeNode* removeRightSubTree(TreeNode* tree_node);
+void changeRightSubTree(TreeNode* tree_node, TreeNode* sub);
+void changeLeftSubTree(TreeNode* tree_node, TreeNode* sub);
 #endif

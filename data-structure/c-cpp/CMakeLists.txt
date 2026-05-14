@@ -59,6 +59,9 @@ set(CPP_PROJECTS
         cpp/Tree/Heap/SimpleHeap
         cpp/Tree/Heap/Heap
         cpp/Tree/PriorityQueue
+        cpp/Tree/BinarySearchTree
+        cpp/Tree/ExpressionTree
+        cpp/Tree/AvlTree
 )
 
 foreach (PROJECT IN LISTS CPP_PROJECTS)
