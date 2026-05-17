@@ -4,9 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="945df006-53c9-48f1-9108-a4dcbc3c418f" name="Changes" comment="lambda 공부">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="945df006-53c9-48f1-9108-a4dcbc3c418f" name="Changes" comment="collection : list, set 공부">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/ComparableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/FruitComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/FruitComparatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/HashTableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/PropertiesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/QueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/StackExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/SynchronizedExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/TreeMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/TreeSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/ParallelStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StreamExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StreamExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StreamExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StreamPipelineExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,39 +86,67 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayListExample.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
     "Gradle.java-study [:GodOfJava1.chapter2.Profile.main()].executor": "Run",
     "Gradle.java-study [:GodOfJava1.chapter3.Profile.main()].executor": "Run",
     "Gradle.java-study [:Test.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.ArrayListExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.ComparableExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.HashMapExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.HashSetExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.HashTableExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.LinkedListExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.PropertiesExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.StackExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.SynchronizedExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.TreeMapExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.TreeSetExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter15.VectorExample.main()].executor": "Run",
     "Gradle.java-study [:ThisIsJava.chapter16.ConstructorReferenceExample.main()].executor": "Run",
     "Gradle.java-study [:ThisIsJava.chapter16.LambdaExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.ParallelStreamExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.ProductStreamExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.StreamExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.StreamExample2.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.StreamPipelineExample.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "study",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/admin/project/java-study/src/main/java/GodOfJava1/chapter3",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "last_opened_file_path": "/Users/admin/projects/TIL/java-study/src/main/java/ThisIsJava/chapter15",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15" />
       <recent name="$PROJECT_DIR$/src/main/java/GodOfJava1/chapter3" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/ThisIsJava" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ThisIsJava.chapter16" />
       <recent name="GodOfJava1.chapter3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConstructorReferenceExample">
-    <configuration name="ConstructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter16.ConstructorReferenceExample" />
+  <component name="RunManager" selected="Application.StreamExample2">
+    <configuration name="ArrayListExample" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter15.ArrayListExample" />
       <module name="java-study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThisIsJava.chapter16.*" />
+          <option name="PATTERN" value="ThisIsJava.chapter15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GodOfJava1.chapter3.Profile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GodOfJava1.chapter3.Profile" />
+    <configuration name="ParallelStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.ParallelStreamExample" />
       <module name="java-study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GodOfJava1.chapter3.*" />
+          <option name="PATTERN" value="ThisIsJava.chapter17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter16.LambdaExample" />
+    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.StreamExample" />
       <module name="java-study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThisIsJava.chapter16.*" />
+          <option name="PATTERN" value="ThisIsJava.chapter17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Profile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GodOfJava1.chapter2.Profile" />
+    <configuration name="StreamExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.StreamExample1" />
       <module name="java-study.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GodOfJava1.chapter2.*" />
+          <option name="PATTERN" value="ThisIsJava.chapter17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,20 +193,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="StreamExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.StreamExample2" />
       <module name="java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThisIsJava.chapter17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamPipelineExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.StreamPipelineExample" />
+      <module name="java-study.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThisIsJava.chapter17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ArrayListExample" />
+      <item itemvalue="Application.ParallelStreamExample" />
+      <item itemvalue="Application.StreamExample" />
+      <item itemvalue="Application.StreamExample1" />
+      <item itemvalue="Application.StreamExample2" />
+      <item itemvalue="Application.StreamPipelineExample" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConstructorReferenceExample" />
-        <item itemvalue="Application.LambdaExample" />
-        <item itemvalue="Application.GodOfJava1.chapter3.Profile" />
-        <item itemvalue="Application.Profile" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StreamExample2" />
+        <item itemvalue="Application.StreamExample1" />
+        <item itemvalue="Application.StreamPipelineExample" />
+        <item itemvalue="Application.ParallelStreamExample" />
+        <item itemvalue="Application.StreamExample" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778409533881</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="collection : list, set 공부">
+      <option name="closed" value="true" />
+      <created>1778855595243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778855595243</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,6 +276,27 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="lambda 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda 공부" />
+    <MESSAGE value="collection : list, set 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="collection : list, set 공부" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-25.0.3/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java</url>
+          <line>2580</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-25.0.3/Contents/Home/lib/src.zip!/java.base/java/lang/ClassLoader.java</url>
+          <line>1678</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
