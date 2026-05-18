@@ -1,6 +1,6 @@
 package ThisIsJava.chapter17;
 
-public class Student implements Comparable<Student>{
+public class StudentNoComparable {
     private String name;
     private int score;
 
@@ -20,13 +20,9 @@ public class Student implements Comparable<Student>{
         this.score = score;
     }
 
-    public Student(String name, int score) {
+    public StudentNoComparable(String name, int score) {
         this.name = name;
         this.score = score;
     }
 
-    @Override
-    public int compareTo(Student o) {
-        return Integer.compare(score,o.score);
-    }
 }
