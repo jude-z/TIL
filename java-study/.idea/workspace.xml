@@ -4,38 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="945df006-53c9-48f1-9108-a4dcbc3c418f" name="Changes" comment="collection : list, set 공부">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/ComparableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/FruitComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/FruitComparatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/HashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/HashTableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/PropertiesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/QueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/StackExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/SynchronizedExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/TreeMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter15/TreeSetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/ParallelStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StreamExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StreamExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StreamExample3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StreamPipelineExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+    <list default="true" id="945df006-53c9-48f1-9108-a4dcbc3c418f" name="Changes" comment="collection : treeset, treemap 예제 공부&#10;stream 기본 api 예제 공부">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/AggregateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/CollectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/FilterStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/FlatMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/LoopingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/MapExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/MapExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/MatchingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/ReductionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/SortingExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/SortingExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StreamExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StudentNoComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/StudentSex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThisIsJava/chapter17/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,10 +90,21 @@
     "Gradle.java-study [:ThisIsJava.chapter15.VectorExample.main()].executor": "Run",
     "Gradle.java-study [:ThisIsJava.chapter16.ConstructorReferenceExample.main()].executor": "Run",
     "Gradle.java-study [:ThisIsJava.chapter16.LambdaExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.CollectExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.FilterStreamExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.FlatMapExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.LoopingExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.MapExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.MapExample2.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.MatchingExample.main()].executor": "Run",
     "Gradle.java-study [:ThisIsJava.chapter17.ParallelStreamExample.main()].executor": "Run",
     "Gradle.java-study [:ThisIsJava.chapter17.ProductStreamExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.ReductionExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.SortingExample.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.SortingExample2.main()].executor": "Run",
     "Gradle.java-study [:ThisIsJava.chapter17.StreamExample.main()].executor": "Run",
     "Gradle.java-study [:ThisIsJava.chapter17.StreamExample2.main()].executor": "Run",
+    "Gradle.java-study [:ThisIsJava.chapter17.StreamExample4.main()].executor": "Run",
     "Gradle.java-study [:ThisIsJava.chapter17.StreamPipelineExample.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -134,11 +130,12 @@
       <recent name="$PROJECT_DIR$/src/main/java/ThisIsJava" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ThisIsJava.chapter17" />
       <recent name="ThisIsJava.chapter16" />
       <recent name="GodOfJava1.chapter3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamExample2">
+  <component name="RunManager" selected="Application.CollectExample">
     <configuration name="ArrayListExample" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -154,8 +151,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.ParallelStreamExample" />
+    <configuration name="CollectExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.CollectExample" />
       <module name="java-study.main" />
       <extension name="coverage">
         <pattern>
@@ -167,8 +164,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.StreamExample" />
+    <configuration name="LoopingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.LoopingExample" />
       <module name="java-study.main" />
       <extension name="coverage">
         <pattern>
@@ -180,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.StreamExample1" />
+    <configuration name="MatchingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.MatchingExample" />
       <module name="java-study.main" />
       <extension name="coverage">
         <pattern>
@@ -193,8 +190,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.StreamExample2" />
+    <configuration name="ReductionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.ReductionExample" />
       <module name="java-study.main" />
       <extension name="coverage">
         <pattern>
@@ -206,8 +203,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamPipelineExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.StreamPipelineExample" />
+    <configuration name="SortingExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisIsJava.chapter17.SortingExample2" />
       <module name="java-study.main" />
       <extension name="coverage">
         <pattern>
@@ -221,19 +218,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ArrayListExample" />
-      <item itemvalue="Application.ParallelStreamExample" />
-      <item itemvalue="Application.StreamExample" />
-      <item itemvalue="Application.StreamExample1" />
-      <item itemvalue="Application.StreamExample2" />
-      <item itemvalue="Application.StreamPipelineExample" />
+      <item itemvalue="Application.CollectExample" />
+      <item itemvalue="Application.LoopingExample" />
+      <item itemvalue="Application.MatchingExample" />
+      <item itemvalue="Application.ReductionExample" />
+      <item itemvalue="Application.SortingExample2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamExample2" />
-        <item itemvalue="Application.StreamExample1" />
-        <item itemvalue="Application.StreamPipelineExample" />
-        <item itemvalue="Application.ParallelStreamExample" />
-        <item itemvalue="Application.StreamExample" />
+        <item itemvalue="Application.CollectExample" />
+        <item itemvalue="Application.ReductionExample" />
+        <item itemvalue="Application.MatchingExample" />
+        <item itemvalue="Application.LoopingExample" />
+        <item itemvalue="Application.SortingExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778855595243</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="collection : treeset, treemap 예제 공부&#10;stream 기본 api 예제 공부">
+      <option name="closed" value="true" />
+      <created>1779027000712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779027000712</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,7 +282,8 @@
     </ignored-roots>
     <MESSAGE value="lambda 공부" />
     <MESSAGE value="collection : list, set 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="collection : list, set 공부" />
+    <MESSAGE value="collection : treeset, treemap 예제 공부&#10;stream 기본 api 예제 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="collection : treeset, treemap 예제 공부&#10;stream 기본 api 예제 공부" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
