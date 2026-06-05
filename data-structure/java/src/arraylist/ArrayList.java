@@ -16,9 +16,6 @@ public class ArrayList<T>{
     }
 
     public void insert(T t){
-        if(isFull()){
-            grow();
-        }
         this.data[size++] = t;
         this.numOfElements++;
     }
@@ -43,18 +40,7 @@ public class ArrayList<T>{
         this.size--;
         return rdata;
     }
-
-    private void grow(){
-        this.capacity *= 2;
-        T[] newData = (T[])new Object[capacity];
-        for(int i = 0;i<size;i++){
-            newData[i] = data[i];
-        }
-        this.data = newData;
+    public int count(){
+        return this.numOfElements;
     }
-
-    public boolean isFull(){
-        return size == capacity;
-    }
-
 }
