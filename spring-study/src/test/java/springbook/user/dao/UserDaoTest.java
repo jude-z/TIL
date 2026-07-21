@@ -5,8 +5,12 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.dao.DataAccessException;
+import org.springframework.dao.DuplicateKeyException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.datasource.SingleConnectionDataSource;
+import org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator;
+import org.springframework.jdbc.support.SQLExceptionTranslator;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
@@ -24,7 +28,8 @@ public class UserDaoTest {
 
     @Autowired
     ApplicationContext context;
-
+    @Autowired
+    DataSource dataSource;
     private UserDao dao;
     private User user1;
     private User user2;
@@ -83,12 +88,36 @@ public class UserDaoTest {
         dao.add(user3);
         List<User> users3 = dao.getAll();
         assertThat(users3.size()).isEqualTo(3);
-        checkSameUser(user3,users3.get(0));
-        checkSameUser(user1,users3.get(1));
-        checkSameUser(user2,users3.get(2));
+        checkSameUser(user1,users3.get(0));
+        checkSameUser(user2,users3.get(1));
+        checkSameUser(user3,users3.get(2));
 
     }
 
+    @Test
+    public void duplicateKey(){
+        dao.deleteAll();
+
+        dao.add(user1);
+        assertThatThrownBy(() -> dao.add(user1))
+                .isInstanceOf(DataAccessException.class);
+    }
+
+    @Test
+    void sqlExceptionTranslate(){
+        dao.deleteAll();
+
+        try{
+            dao.add(user1);
+            dao.add(user2);
+        }catch (DuplicateKeyException e){
+            SQLException sqlEx = (SQLException) e.getRootCause();
+            SQLExceptionTranslator translator = new SQLErrorCodeSQLExceptionTranslator(dataSource);
+
+            assertThat(translator.translate(null,null,sqlEx))
+                    .isEqualTo(DuplicateKeyException.class);
+        }
+    }
     private void checkSameUser(User user1, User user2){
         assertThat(user1.getId()).isEqualTo(user2.getId());
         assertThat(user1.getName()).isEqualTo(user2.getName());
